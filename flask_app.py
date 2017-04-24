@@ -4,10 +4,10 @@ from flask import Flask, request
 import apiai
 
 # FB messenger credentials
-ACCESS_TOKEN = "EAAInkcLZAzucBAOsZAryopOY17FZB8c2HijWcLxaHcUgulcfZBcBGw7H7YZCV6dyD4qgb9XNXaKMWOe7hB2se2xffpOGKsm8x6feDL4btBOSvNdTzG2r6TYnI02B8fPOUHwAi9f0uSiftLEa9eCYxvsolmb4VgnLRZApd7TjlScAZDZD"
+ACCESS_TOKEN = " insert your page access token "
 
 # api.ai credentials
-CLIENT_ACCESS_TOKEN = "b9b055bad0ee4dc9b53482ad6d458b9d"
+CLIENT_ACCESS_TOKEN = " insert your clent access token  "
 ai = apiai.ApiAI(CLIENT_ACCESS_TOKEN)
 
 app = Flask(__name__)
